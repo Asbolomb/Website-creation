@@ -1,19 +1,40 @@
+
+body{
+
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+  }
+
+
 .container {
     display: flex;
     min-height: 10vh;
     flex-direction: row;
+    justify-content:space-evenly
+   
 }
 .box{
     color:rgb(255, 255, 255);
-    font-size:40px;
+    font-size:60px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px;
-    width:33.333%;
+    
     
     
 }
 
-.box1{background-color:rgb(59, 13, 105);}
-.box2{background-color:rgb(94, 18, 94);}
-.box3{background-color:rgb(94, 30, 94);}
+.box1{background-color:hsl(216, 62%, 16%, .6);}
+.box2{background-color:hsl(214, 56%, 38%, .6);}
+.box3{background-color:hsl(217, 66%, 26%, .6);}
+
+
+
+  
+  
+
+
+
+
